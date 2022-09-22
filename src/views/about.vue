@@ -1,14 +1,27 @@
 <template>
-  <div>
-    <h2>about</h2>
-    <router-view></router-view>
-  </div>
+  <h2>about</h2>
+  <SyElInput :value="inputRule.value" v-bind="inputRule.options">
+    <!-- 具名插槽 -->
+  </SyElInput>
+  <!-- <router-view></router-view> -->
 </template>
 
-<script setup lang="ts">
-const route = useRoute();
-console.log("route", route);
+<script>
+import SyElInput from '@/components/SyElInput.vue';
+export default {
+  name: "About",
+  components:{
+    SyElInput
+  },
+  data(){
+    return{
+      inputRule:{
+        value:'lalal',
+        // ke透传选项
+        options:{}
+      }
+    }
+  }
+};
 </script>
 
-<style lang="scss" scoped>
-</style>

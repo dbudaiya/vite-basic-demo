@@ -5,7 +5,7 @@ export const AutoImportOptions: Options = {
     'vue',
     'vue-router',
     'pinia',
-    '@vueuse/core',
+    // '@vueuse/core',
     // custom
     {
       'axios': [
