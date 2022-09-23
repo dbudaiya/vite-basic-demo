@@ -7,6 +7,7 @@
       </el-icon>
     </component>
     <el-button type="info" :icon="Message1" circle />
+    <el-divider />
   </div>
 </template>
 
@@ -25,6 +26,7 @@ export default {
   data() {
     return {
       cpn: "el-button",
+      cpnT:"el-table",
       bindData: {
         circle: true,
       },

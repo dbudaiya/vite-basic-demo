@@ -25,6 +25,14 @@ const routes: RouteRecordRaw[] = [
     },
     component: () => import('@/views/iscpn.vue'),
   },
+  {
+    path: "/istbl",
+    name: "isTableCpn组件",
+    meta: {
+      nickname: "Son"
+    },
+    component: () => import('@/views/istbl.vue'),
+  },
 ]
 
 const router = createRouter({
