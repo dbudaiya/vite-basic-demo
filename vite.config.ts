@@ -7,7 +7,7 @@ import {
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import VueSetupExtend from 'vite-plugin-vue-setup-extend'
-import { AutoImportOptions } from './vite-variable-config'
+import { AutoImportOptions } from './vite-variable-config.ts'
 
 export default defineConfig({
   plugins: [
@@ -20,6 +20,6 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     },
-    extensions:['.ts','.js','.json','.jsx']
+    extensions: ['.ts', '.js', '.json', '.jsx']
   }
 })

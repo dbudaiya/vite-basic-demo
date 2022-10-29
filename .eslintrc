@@ -1,0 +1,6 @@
+{
+  "extends": "@dushenyan",
+  "eslintIgnore": [
+    "package.json"
+  ]
+}

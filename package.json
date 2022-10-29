@@ -5,27 +5,35 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "echo ksal",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "pinia": "^2.0.22",
-    "vue": "^3.2.37",
-    "vue-router": "^4.1.5"
+    "pinia": "^2.0.23",
+    "shenyan-utils": "^0.1.3",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@element-plus/icons-vue": "^2.0.9",
-    "@types/node": "^18.7.18",
-    "@vitejs/plugin-vue": "^3.1.0",
-    "@vueuse/core": "^9.2.0",
-    "element-plus": "^2.2.17",
+    "@dushenyan/eslint-config": "^0.1.2",
+    "@element-plus/icons-vue": "^2.0.10",
+    "@types/mockjs": "^1.0.7",
+    "@types/node": "^18.11.7",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vueuse/core": "^9.4.0",
+    "element-plus": "^2.2.19",
+    "eslint": "^8.26.0",
+    "gsap": "^3.11.3",
+    "less": "^4.1.3",
     "lodash": "^4.17.21",
-    "typescript": "^4.6.4",
-    "unplugin-auto-import": "^0.11.2",
-    "unplugin-vue-components": "^0.22.7",
-    "vite": "^3.1.0",
+    "mockjs": "^1.1.0",
+    "typescript": "^4.8.4",
+    "unplugin-auto-import": "^0.11.4",
+    "unplugin-vue-components": "^0.22.9",
+    "vite": "^3.2.0",
     "vite-plugin-vue-setup-extend": "^0.4.0",
-    "vue-tsc": "^0.40.4"
+    "vue-tsc": "^0.40.13"
   }
 }

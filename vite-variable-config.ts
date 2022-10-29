@@ -8,11 +8,11 @@ export const AutoImportOptions: Options = {
     // '@vueuse/core',
     // custom
     {
-      'axios': [
+      axios: [
         // default imports
-        ['default', 'axios'], // import { default as axios } from 'axios',
-      ],
-    },
+        ['default', 'axios'] // import { default as axios } from 'axios',
+      ]
+    }
   ],
   dts: './auto-imports.d.ts',
   eslintrc: {

@@ -1,10 +1,14 @@
-<template>
-  <!-- /about/1/son -->
-  <div>About子选项</div>
-</template>
-
 <script setup lang="ts" name="Son">
+import { Provide } from '../App.vue'
+console.log('Son中的attrs', useAttrs())
+
+const ev = inject<Provide>('ev')
 </script>
 
-<style lang="scss" scoped>
-</style>
+<template>
+  <h3>Son组件</h3>
+  <h4>{{ ev?.count }}</h4>
+  <el-button @click="ev?.ECount(5)">
+    按钮
+  </el-button>
+</template>

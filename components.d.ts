@@ -7,18 +7,25 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Avatar: typeof import('./src/components/Avatar.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElDailo: typeof import('element-plus/es')['ElDailo']
+    ElDialog: typeof import('element-plus/es')['ElDialog']
+    ElDiolog: typeof import('element-plus/es')['ElDiolog']
     ElDivider: typeof import('element-plus/es')['ElDivider']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElInp: typeof import('element-plus/es')['ElInp']
     ElInput: typeof import('element-plus/es')['ElInput']
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
+    GithubLogo: typeof import('./src/components/GithubLogo.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     NextTable: typeof import('./src/components/NextTable.vue')['default']
+    PiniaLogo: typeof import('./src/components/PiniaLogo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SonCpn: typeof import('./src/components/SonCpn.vue')['default']
     SyElInput: typeof import('./src/components/SyElInput.vue')['default']
+    Vatar: typeof import('./src/components/vatar.vue')['default']
   }
 }
